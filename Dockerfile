@@ -1,4 +1,4 @@
-FROM trustsaude/sample-docker-image
+FROM node:4.2.2
 
 ADD . sample-docker-image
 WORKDIR sample-docker-image
