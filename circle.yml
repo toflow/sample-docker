@@ -1,0 +1,14 @@
+machine:
+  node:
+    version: 4.4.0
+  environment:
+    ENV: ci
+
+dependencies:
+  override:
+    - bin/install
+
+test:
+  override:
+    - bin/run
+    - bin/test
