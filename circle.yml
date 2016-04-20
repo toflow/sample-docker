@@ -10,5 +10,6 @@ dependencies:
 
 test:
   override:
-    - bin/run
+    - bin/run:
+        background: true
     - bin/test
